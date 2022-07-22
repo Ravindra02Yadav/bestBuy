@@ -17,7 +17,8 @@ export const data = [
       "rating": "User Rating: 3.8 out of 5 stars with 97 reviews",
       "reviews": "(97)",
       "discountedPrice": "149.99",
-      "mainPrice": "219.99"
+      "mainPrice": "219.99",
+      "off":"70"
     },
     {
         "id":3,
@@ -26,7 +27,8 @@ export const data = [
       "rating": "User Rating: 4.8 out of 5 stars with 5926 reviews",
       "reviews": "(5,926)",
       "discountedPrice": "1,099.99",
-      "mainPrice": "1,299.99"
+      "mainPrice": "1,299.99",
+      "off":"200"
     },
     {
         "id":4,
@@ -35,7 +37,8 @@ export const data = [
       "rating": "User Rating: 4.9 out of 5 stars with 7221 reviews",
       "reviews": "(7,221)",
       "discountedPrice": "399.99",
-      "mainPrice": "599.99"
+      "mainPrice": "599.99",
+      "off":"200"
     },
     {
         "id":5,
@@ -43,8 +46,10 @@ export const data = [
       "title": "Samsung - 50\" Class 7 Series LED 4K UHD Smart Tizen TV",
       "rating": "User Rating: 4.6 out of 5 stars with 8509 reviews",
       "reviews": "(8,509)",
-      "discountedPrice": "379.99",
-      "mainPrice": "399.99"
+      "discountedPrice": "1339.99",
+      "mainPrice": "1099.99",
+      "off":"300"
+
     },
     {
         "id":6,
@@ -53,7 +58,8 @@ export const data = [
       "rating": "User Rating: 4.5 out of 5 stars with 325 reviews",
       "reviews": "(325)",
       "discountedPrice": "499.99",
-      "mainPrice": "599.99"
+      "mainPrice": "599.99",
+      "off":"100"
     },
     {
         "id":7,
@@ -62,7 +68,8 @@ export const data = [
       "rating": "User Rating: 4.8 out of 5 stars with 2895 reviews",
       "reviews": "(2,895)",
       "discountedPrice": "1,099.99",
-      "mainPrice": "1,249.99"
+      "mainPrice": "1,249.99",
+      "off":"200"
     },
     {
         "id":8,
@@ -70,8 +77,9 @@ export const data = [
       "title": "Samsung - 58\" Class 7 Series LED 4K UHD Smart Tizen TV",
       "rating": "User Rating: 4.5 out of 5 stars with 2640 reviews",
       "reviews": "(2,640)",
-      "discountedPrice": "157",
-      "mainPrice": "130"
+      "discountedPrice": "1599",
+      "mainPrice": "1399",
+      "off":"200"
     },
     {
         "id":9,
@@ -79,8 +87,9 @@ export const data = [
       "title": "HP - 14\" Laptop - AMD Ryzen 3 - 8GB Memory - 128GB SSD - Natural Silver",
       "rating": "User Rating: 4.6 out of 5 stars with 129 reviews",
       "reviews": "(129)",
-      "discountedPrice": "309.99",
-      "mainPrice": "429.99"
+      "discountedPrice": "350.99",
+      "mainPrice": "500.99",
+      "off":"150"
     },
     {
         "id":10,
@@ -89,7 +98,8 @@ export const data = [
       "rating": "User Rating: 4.2 out of 5 stars with 130 reviews",
       "reviews": "(130)",
       "discountedPrice": "107.99",
-      "mainPrice": "179.00"
+      "mainPrice": "179.99",
+      "off":"72"
     },
     {
         "id":11,
@@ -97,8 +107,9 @@ export const data = [
       "title": "MacBook Pro 14\" Laptop - Apple M1 Pro chip - 16GB Memory - 512GB SSD (Latest Model) - Space Gray",
       "rating": "User Rating: 4.8 out of 5 stars with 1159 reviews",
       "reviews": "(1,159)",
-      "discountedPrice": "1,749.00",
-      "mainPrice": "1,999.00"
+      "discountedPrice": "1,799.00",
+      "mainPrice": "1,999.00",
+      "off":"100"
     },
     {
         "id":12,
@@ -107,7 +118,8 @@ export const data = [
       "rating": "User Rating: 4.8 out of 5 stars with 1748 reviews",
       "reviews": "(1,748)",
       "discountedPrice": "399.99",
-      "mainPrice": "499.99"
+      "mainPrice": "499.99",
+      "off":"100"
     },
     {
         "id":13,
@@ -116,7 +128,8 @@ export const data = [
       "rating": "User Rating: 4.6 out of 5 stars with 10799 reviews",
       "reviews": "(10,799)",
       "discountedPrice": "529.99",
-      "mainPrice": "549.99"
+      "mainPrice": "549.99",
+      "off":"20"
     },
     {
         "id":14,
@@ -125,7 +138,8 @@ export const data = [
       "rating": "User Rating: 4.6 out of 5 stars with 7991 reviews",
       "reviews": "(7,991)",
       "discountedPrice": "299.99",
-      "mainPrice": "329.99"
+      "mainPrice": "329.99",
+      "off":"100"
     },
     {
         "id":15,
@@ -134,6 +148,7 @@ export const data = [
       "rating": "User Rating: 3.8 out of 5 stars with 494 reviews",
       "reviews": "(494)",
       "discountedPrice": "499.99",
-      "mainPrice": "699.99"
+      "mainPrice": "699.99",
+      "off":"200"
     }
   ]

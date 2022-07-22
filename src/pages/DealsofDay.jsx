@@ -1,6 +1,6 @@
 import { StarIcon, TimeIcon } from "@chakra-ui/icons";
 import { Box, Flex, Heading, Link,Text, Image, Highlight, Button, Icon, Divider, Grid } from "@chakra-ui/react";
-import React from "react";
+import React, { useState } from "react";
 import NavBar from "../components/NavBar";
 import Timer1 from "../components/Timer1";
 import { AiOutlineShoppingCart } from 'react-icons/ai'
@@ -8,7 +8,7 @@ import Product from "../components/Product";
 import {data} from '../Data/Data'
 
 const DealsofDay = () => {
-    console.log(data)
+    const [datas,setDatas] = useState(data)
   return (
     <>
       <NavBar />
@@ -62,7 +62,7 @@ const DealsofDay = () => {
     <Heading size='lg'>$109.00</Heading>
     <Text ><Highlight query='Save $140'  styles={{bg:"red",color:"white",fontWeight:"bold"}}>Save $140</Highlight> Was $249.00</Text>
     <Text fontSize="0.8rem"><TimeIcon />  Deal ends in    <Timer1/></Text>
-    <Heading fontSize="0.8rem">Free 6-month security software & <Link color="blue">1 moreA $29.99 value</Link></Heading>
+    <Heading fontSize="0.8rem">Free 6-month security software & <Link color="blue">1 more $29.99 value</Link></Heading>
     <Text></Text>
     <Button mt="10px" size="sm" varient="solid" colorScheme='yellow' bg="#ffe000" leftIcon={<Icon as={AiOutlineShoppingCart} w={30} h={30} pt="0.2rem"/>}>Add to Cart</Button>
 </Box>
@@ -74,9 +74,9 @@ const DealsofDay = () => {
       templateColumns='repeat(4, 1fr)'
        w="100%" m="20px">
       
-      {data.map(item =>(
+      {datas.map(item =>(
         
-        <Product img={item.img} title={item.title} rating={item.rating} reviews={item.reviews} discountedPrice={item.discountedPrice} mainPrice={item.mainPrice} />
+        <Product obj = {item} key={item.id} img={item.img} title={item.title} rating={item.rating} reviews={item.reviews} discountedPrice={item.discountedPrice} mainPrice={item.mainPrice} off={item.off} />
       ))}
       </Grid>
       
