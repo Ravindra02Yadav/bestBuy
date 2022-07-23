@@ -8,12 +8,12 @@ import {CartContextProvider} from './components/Context/CartContext'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <CartContextProvider>
      <ChakraProvider>
-      <BrowserRouter>
-      <CartContextProvider>
+      <BrowserRouter> 
     <App />
-    </CartContextProvider>
     </BrowserRouter>
      </ChakraProvider>
+     </CartContextProvider>
   </React.StrictMode>
 )

@@ -6,9 +6,9 @@ export const data = [
       "title": "Lenovo - IdeaPad 3 15\" HD Touch Screen Laptop - Intel Core i3-1115G4 - Intel UHD Graphics - 8GB Memory - 256GB SSD - Almond",
       "rating": "User Rating: 4.6 out of 5 stars with 352 reviews",
       "reviews": "(352)",
-      "discountedPrice": "409.99",
-      "mainPrice": "499.99",
-      "off":"90"
+      "discountedPrice": 409,
+      "mainPrice": 499,
+      "off":90
     },
     {
         "id":2,
@@ -16,9 +16,9 @@ export const data = [
       "title": "Apple - Geek Squad Certified Refurbished AirPods Pro (with Magsafe Charging Case) - White",
       "rating": "User Rating: 3.8 out of 5 stars with 97 reviews",
       "reviews": "(97)",
-      "discountedPrice": "149.99",
-      "mainPrice": "219.99",
-      "off":"70"
+      "discountedPrice": 149,
+      "mainPrice": 219,
+      "off":70
     },
     {
         "id":3,
@@ -26,9 +26,9 @@ export const data = [
       "title": "MacBook Pro 13.3\" Laptop - Apple M1 chip - 8GB Memory - 256GB SSD - Space Gray",
       "rating": "User Rating: 4.8 out of 5 stars with 5926 reviews",
       "reviews": "(5,926)",
-      "discountedPrice": "1,099.99",
-      "mainPrice": "1,299.99",
-      "off":"200"
+      "discountedPrice": 1099,
+      "mainPrice": 1299,
+      "off":200
     },
     {
         "id":4,
@@ -36,9 +36,9 @@ export const data = [
       "title": "Apple - 10.9-Inch iPad Air  - (4th Generation) with Wi-Fi - 64GB - Sky blue",
       "rating": "User Rating: 4.9 out of 5 stars with 7221 reviews",
       "reviews": "(7,221)",
-      "discountedPrice": "399.99",
-      "mainPrice": "599.99",
-      "off":"200"
+      "discountedPrice": 399,
+      "mainPrice": 599,
+      "off":200
     },
     {
         "id":5,
@@ -46,9 +46,9 @@ export const data = [
       "title": "Samsung - 50\" Class 7 Series LED 4K UHD Smart Tizen TV",
       "rating": "User Rating: 4.6 out of 5 stars with 8509 reviews",
       "reviews": "(8,509)",
-      "discountedPrice": "1339.99",
-      "mainPrice": "1099.99",
-      "off":"300"
+      "discountedPrice": 1339,
+      "mainPrice": 1099,
+      "off":300
 
     },
     {
@@ -57,9 +57,9 @@ export const data = [
       "title": "Dell - Inspiron 3511 15.6\" Touch Laptop - Intel Core i5 - 8GB Memory - 256GB Solid State Drive - Black",
       "rating": "User Rating: 4.5 out of 5 stars with 325 reviews",
       "reviews": "(325)",
-      "discountedPrice": "499.99",
-      "mainPrice": "599.99",
-      "off":"100"
+      "discountedPrice": 499,
+      "mainPrice": 599,
+      "off":100
     },
     {
         "id":7,
@@ -67,9 +67,9 @@ export const data = [
       "title": "MacBook Air 13.3\" Laptop - Apple M1 chip - 8GB Memory - 512GB SSD - Space Gray",
       "rating": "User Rating: 4.8 out of 5 stars with 2895 reviews",
       "reviews": "(2,895)",
-      "discountedPrice": "1,099.99",
-      "mainPrice": "1,249.99",
-      "off":"200"
+      "discountedPrice": 1099,
+      "mainPrice": 1249,
+      "off":200
     },
     {
         "id":8,
@@ -77,9 +77,9 @@ export const data = [
       "title": "Samsung - 58\" Class 7 Series LED 4K UHD Smart Tizen TV",
       "rating": "User Rating: 4.5 out of 5 stars with 2640 reviews",
       "reviews": "(2,640)",
-      "discountedPrice": "1599",
-      "mainPrice": "1399",
-      "off":"200"
+      "discountedPrice": 1599,
+      "mainPrice": 1399,
+      "off":200
     },
     {
         "id":9,
@@ -87,9 +87,9 @@ export const data = [
       "title": "HP - 14\" Laptop - AMD Ryzen 3 - 8GB Memory - 128GB SSD - Natural Silver",
       "rating": "User Rating: 4.6 out of 5 stars with 129 reviews",
       "reviews": "(129)",
-      "discountedPrice": "350.99",
-      "mainPrice": "500.99",
-      "off":"150"
+      "discountedPrice": 350,
+      "mainPrice": 500,
+      "off":150
     },
     {
         "id":10,
@@ -97,9 +97,9 @@ export const data = [
       "title": "Apple - Geek Squad Certified Refurbished AirPods (3rd generation) - White",
       "rating": "User Rating: 4.2 out of 5 stars with 130 reviews",
       "reviews": "(130)",
-      "discountedPrice": "107.99",
-      "mainPrice": "179.99",
-      "off":"72"
+      "discountedPrice": 107,
+      "mainPrice": 179,
+      "off":72
     },
     {
         "id":11,
@@ -107,9 +107,9 @@ export const data = [
       "title": "MacBook Pro 14\" Laptop - Apple M1 Pro chip - 16GB Memory - 512GB SSD (Latest Model) - Space Gray",
       "rating": "User Rating: 4.8 out of 5 stars with 1159 reviews",
       "reviews": "(1,159)",
-      "discountedPrice": "1,799.00",
-      "mainPrice": "1,999.00",
-      "off":"100"
+      "discountedPrice": 1799,
+      "mainPrice": 1999,
+      "off":100
     },
     {
         "id":12,
@@ -117,9 +117,9 @@ export const data = [
       "title": "Apple - iPad mini (Latest Model) with Wi-Fi - 64GB - Space Gray",
       "rating": "User Rating: 4.8 out of 5 stars with 1748 reviews",
       "reviews": "(1,748)",
-      "discountedPrice": "399.99",
-      "mainPrice": "499.99",
-      "off":"100"
+      "discountedPrice": 399,
+      "mainPrice": 499,
+      "off":100
     },
     {
         "id":13,
@@ -127,9 +127,9 @@ export const data = [
       "title": "Samsung - 65\" Class 7 Series LED 4K UHD Smart Tizen TV",
       "rating": "User Rating: 4.6 out of 5 stars with 10799 reviews",
       "reviews": "(10,799)",
-      "discountedPrice": "529.99",
-      "mainPrice": "549.99",
-      "off":"20"
+      "discountedPrice": 529,
+      "mainPrice": 549,
+      "off": 20
     },
     {
         "id":14,
@@ -137,9 +137,9 @@ export const data = [
       "title": "Samsung - 43\" Class 7 Series LED 4K UHD Smart Tizen TV",
       "rating": "User Rating: 4.6 out of 5 stars with 7991 reviews",
       "reviews": "(7,991)",
-      "discountedPrice": "299.99",
-      "mainPrice": "329.99",
-      "off":"100"
+      "discountedPrice": 299,
+      "mainPrice": 329,
+      "off":100
     },
     {
         "id":15,
@@ -147,8 +147,8 @@ export const data = [
       "title": "ASUS - Vivobook 17.3\" Laptop - Intel Core 10th Gen i5 - 12GB Memory - 1TB HDD",
       "rating": "User Rating: 3.8 out of 5 stars with 494 reviews",
       "reviews": "(494)",
-      "discountedPrice": "499.99",
-      "mainPrice": "699.99",
-      "off":"200"
+      "discountedPrice": 499,
+      "mainPrice": 699,
+      "off":200
     }
   ]

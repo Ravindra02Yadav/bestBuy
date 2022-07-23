@@ -6,6 +6,7 @@ import Timer1 from "../components/Timer1";
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 import Product from "../components/Product";
 import {data} from '../Data/Data'
+import Footer from "../components/Footer";
 
 const DealsofDay = () => {
     const [datas,setDatas] = useState(data)
@@ -79,7 +80,7 @@ const DealsofDay = () => {
         <Product obj = {item} key={item.id} img={item.img} title={item.title} rating={item.rating} reviews={item.reviews} discountedPrice={item.discountedPrice} mainPrice={item.mainPrice} off={item.off} />
       ))}
       </Grid>
-      
+      <Footer />
     </>
   );
 };

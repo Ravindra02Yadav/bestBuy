@@ -1,5 +1,5 @@
-import React from "react";
-import { Box, Button, Divider, Flex, Heading, IconButton, Input, InputGroup, InputRightElement, Menu, MenuButton, MenuDivider, MenuItem, MenuList, Popover, PopoverArrow, PopoverBody, PopoverCloseButton, PopoverContent, PopoverHeader, PopoverTrigger, Spacer } from "@chakra-ui/react";
+import React, { useContext } from "react";
+import { Box, Button, Divider, Flex, Heading, IconButton, Input, InputGroup, InputRightElement, Menu, MenuButton, MenuDivider, MenuItem, MenuList, Popover, PopoverArrow, PopoverBody, PopoverCloseButton, PopoverContent, PopoverHeader, PopoverTrigger, Text } from "@chakra-ui/react";
 import {HamburgerIcon,Search2Icon,ChevronDownIcon, AddIcon, ExternalLinkIcon, RepeatIcon, EditIcon, ChevronRightIcon} from '@chakra-ui/icons'
 import NorthAnchorage from "../images/NorthAnchorage.png"
 // 1. Import
@@ -7,12 +7,14 @@ import { Icon } from '@chakra-ui/react'
 import { AiOutlineShoppingCart, } from 'react-icons/ai'
 import { VscAccount } from 'react-icons/vsc'
 import {Link} from 'react-router-dom';
+import { CartContext } from "./Context/CartContext";
 
 
 
 
 const NavBar = () => {
-   
+  const {arr} = useContext(CartContext)
+  console.log(arr.length)
   return (
     <>
       <Flex
@@ -74,7 +76,9 @@ const NavBar = () => {
 <Box color="white" fontSize="20px">
 <Heading size="lg" fontSize="20px" >
 <Icon as={AiOutlineShoppingCart} w={30} h={30} pt="0.2rem"/>
-Cart</Heading>
+<Text m="-10px" p="2px" mr="10px" borderRadius="40%" color="black" bg="yellow" as='sub'>{arr.length}</Text>
+Cart
+</Heading>
 </Box>
 </Link>
       </Flex>
@@ -102,13 +106,22 @@ Cart</Heading>
                   
                 </Popover>
              </Box>
+             <Link to="/DealsofDay">
             <Box color="white" fontSize="sm">Top Deals </Box>
+            </Link>
             <Link to="/DealsofDay">
             <Box color="white" fontSize="sm">Deals of the Day </Box>
             </Link>
+            <Link to="/DealsofDay">
             <Box color="white" fontSize="sm">Totaltech Membership </Box>
+            </Link>
+            <Link to="/DealsofDay">
             <Box color="white" fontSize="sm">Credits Cards </Box>
+            </Link>
+            <Link to="/DealsofDay">
             <Box color="white" fontSize="sm">Gifts Cards </Box>
+            </Link>
+            
             <Box color="white" fontSize="sm">
             <Popover >
                   <PopoverTrigger>
