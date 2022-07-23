@@ -1,13 +1,19 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 export const CartContext =createContext();
 export const CartContextProvider = ({children}) =>{
-    const [obj, setObj] = useState()
+    const [arr, setArr] = useState([])
 
-function changeObj(o){
-setObj(o)
+function changeArr(obj){
+setArr([...arr,obj])
+
 }
-console.log(obj)
-return <CartContext.Provider value={{changeObj,obj}} >
+console.log(arr)
+function removeItem(id){
+    setArr(arr.filter((el)=>el.id != id))
+}
+
+
+return <CartContext.Provider value={{changeArr,arr,removeItem}} >
     {children}
 </CartContext.Provider>
 }
