@@ -15,7 +15,7 @@ This project is the clone of bestBuy.com .Here you can Shop Best Buy for electro
 4. bootstrap
 5. Git
 6. JavaScript
-7. 
+7. Chakra UI
 
 ## Project live link:
 <a href="https://fantastic-taffy-4d559f.netlify.app">**Live Link** </a>
