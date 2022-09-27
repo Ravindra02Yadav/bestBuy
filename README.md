@@ -18,9 +18,7 @@ This project is the clone of bestBuy.com .Here you can Shop Best Buy for electro
 7. 
 
 ## Project live link:
-<a href="https://fantastic-taffy-4d559f.netlify.app/Cart/">**Live Link** </a>
+<a href="https://fantastic-taffy-4d559f.netlify.app">**Live Link** </a>
 
 ## Home page:
-![image](https://user-images.githubusercontent.com/101568403/185433635-7306eef1-67cd-4b0e-9fe5-05e30bd45a1f.png)
-
-
+![Home](https://user-images.githubusercontent.com/101566360/192518528-ec5b3f46-d703-4bd9-a16a-078118af204c.png)
